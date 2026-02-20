@@ -1,10 +1,3 @@
----
-name: rtm
-description: "Remember The Milk integration for OpenClaw. Manage tasks, lists, and reminders via the RTM REST API."
-homepage: https://www.rememberthemilk.com/services/api/
-metadata: {"clawdbot":{"emoji":"🥛","requires":{"bins":["jq","curl"],"env":["RTM_API_KEY","RTM_SHARED_SECRET","RTM_AUTH_TOKEN","RTM_USERNAME"]}}}
----
-
 # RTM (Remember The Milk) Skill
 
 Manage your [Remember The Milk](https://www.rememberthemilk.com/) tasks directly from OpenClaw. Add tasks, check lists, set due dates, complete items, and organize your to-dos – all via the RTM REST API.
