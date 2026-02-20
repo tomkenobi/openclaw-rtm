@@ -69,7 +69,6 @@ Add to your `~/.openclaw/.env`:
 RTM_API_KEY=your_api_key_here
 RTM_SHARED_SECRET=your_shared_secret_here
 RTM_AUTH_TOKEN=your_auth_token_here
-RTM_USERNAME=your_rtm_username  # optional (nur falls du es irgendwo nutzt)
 ```
 
 ## Usage Examples
