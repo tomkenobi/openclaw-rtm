@@ -2,6 +2,22 @@
 
 Manage your [Remember The Milk](https://www.rememberthemilk.com/) tasks directly from OpenClaw. Add tasks, check lists, set due dates, complete items, and organize your to-dos – all via the RTM REST API.
 
+## Quickstart
+
+1) Env vars setzen (`~/.openclaw/.env`):
+RTM_API_KEY=...
+RTM_SHARED_SECRET=...
+RTM_AUTH_TOKEN=...
+
+2) Listen anzeigen:
+./scripts/rtm_lists.sh
+
+3) Heute fällige Tasks:
+./scripts/rtm_list.sh 'due:today'
+
+4) Task anlegen:
+./scripts/rtm_add_task.sh "Buy milk" "shopping"
+
 ## Setup
 
 ### 1. Get API Credentials
