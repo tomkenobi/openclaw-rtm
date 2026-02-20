@@ -5,18 +5,37 @@ Manage your [Remember The Milk](https://www.rememberthemilk.com/) tasks directly
 ## Quickstart
 
 1) Env vars setzen (`~/.openclaw/.env`):
+
+```bash
 RTM_API_KEY=...
 RTM_SHARED_SECRET=...
 RTM_AUTH_TOKEN=...
+RTM_USERNAME=...   # optional (nur falls du es irgendwo nutzt)
+```
 
-2) Listen anzeigen:
+2) Scripts ausführbar machen (falls nötig):
+
+```bash
+chmod +x ./scripts/*.sh
+```
+
+3) Listen anzeigen:
+
+```bash
 ./scripts/rtm_lists.sh
+```
 
-3) Heute fällige Tasks:
+4) Heute fällige Tasks:
+
+```bash
 ./scripts/rtm_list.sh 'due:today'
+```
 
-4) Task anlegen:
+5) Task anlegen:
+
+```bash
 ./scripts/rtm_add_task.sh "Buy milk" "shopping"
+```
 
 ## Setup
 
@@ -51,7 +70,7 @@ Add to your `~/.openclaw/.env`:
 RTM_API_KEY=your_api_key_here
 RTM_SHARED_SECRET=your_shared_secret_here
 RTM_AUTH_TOKEN=your_auth_token_here
-RTM_USERNAME=your_rtm_username
+RTM_USERNAME=your_rtm_username  # optional (nur falls du es irgendwo nutzt)
 ```
 
 ## Usage Examples
