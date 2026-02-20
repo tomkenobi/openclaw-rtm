@@ -1,5 +1,9 @@
 # RTM (Remember The Milk) Skill
 
+> **Status:** This repository is kept public as a practical RTM “toolbox / reference implementation”, but it is **not published on ClawHub**, because a more full-featured RTM skill already exists there.
+>
+> **ClawHub alternative:** https://clawhub.ai/maxdraki/rtm
+
 Manage your [Remember The Milk](https://www.rememberthemilk.com/) tasks directly from OpenClaw. Add tasks, check lists, set due dates, complete items, and organize your to-dos – all via the RTM REST API.
 
 ## Quickstart
