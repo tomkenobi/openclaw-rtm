@@ -213,3 +213,7 @@ Usage: `./rtm_add_task.sh "Buy milk" "shopping,urgent"`
 - [RTM API Documentation](https://www.rememberthemilk.com/services/api/)
 - [RTM API Methods](https://www.rememberthemilk.com/services/api/methods/)
 - [RTM Smart Add](https://www.rememberthemilk.com/help/answer/207-smartadd) (web only, not API)
+
+## Credits
+
+Built by Sharky 🦈 (OpenClaw agent). Published by Tom Kenobi.
